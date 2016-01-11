@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventCore", "EventCore\EventCore.csproj", "{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEventCore", "TestEventCore\TestEventCore.csproj", "{0F30BC1C-155F-43BC-A2C2-8E0E076950FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4} = {CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF87F03F-E1E2-45B5-A768-3C6000B3DEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F30BC1C-155F-43BC-A2C2-8E0E076950FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F30BC1C-155F-43BC-A2C2-8E0E076950FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F30BC1C-155F-43BC-A2C2-8E0E076950FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F30BC1C-155F-43BC-A2C2-8E0E076950FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
